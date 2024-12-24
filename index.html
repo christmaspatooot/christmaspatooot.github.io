@@ -1,15 +1,90 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonjour</title>
+    <title>COUCOU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        #quiz-container {
+            text-align: center;
+            max-width: 500px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #question-container {
+            margin: 20px 0;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .choice-btn {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .choice-btn:hover {
+            background: #e0e0e0;
+        }
+        #input-container {
+            margin-top: 15px;
+        }
+        #input-container input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: calc(100% - 22px);
+        }
+        #input-container button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: #4caf50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            color: green;
+            margin-top: 10px;
+        }
+        #error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bonjour2</h1>
+    <div id="quiz-container">
+        <!-- <h1>Quiz</h1> -->
+        <div id="question-container">
+            <p id="question">Chargement de la question...</p>
+            <div class="choices" id="choices"></div>
+            <div id="input-container" style="display: none;">
+                <input type="text" id="answer" placeholder="Votre réponse">
+                <button id="validate-btn" style="display: none;">Valider</button>
+            </div>
+        </div>
+        <button id="skip-btn" style="display: none;">Passer la question</button>
+        <p id="result"></p>
+        <p id="error"></p>
+        <p id="final-message" style="display: none;">Bravoo mon loup 💛 Joyeux noël !<br><br><br>Bon.. QUESTION BONUS.<br><br>Sur la première croix du Semnoz, on y trouve un mot écrit en polonais. Quel est sa traduction francaise ?<br><br>Si tu connais la réponse fais moi signe et.. qui sait. Tu débloqueras peut être un tout petit truc supplémentaire 👀</p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
