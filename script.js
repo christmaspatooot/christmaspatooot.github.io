@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Ah ! Tu viens de trouver ce site et tu veux récuperer ton cadeau ?<br>Ouais.. je comprends 💛<br><br>Mais tu te doutes bien que je vais d'abord devoir vérifier ton identité.<br>L'idée va être de pouvoir prouver que tu es bien M.<br>Tu vas donc devoir réussir à atteindre la fin de ce quiz en moins de 3 fautes.<br><br>Si tu dois écrire une réponse, elle sera toujours en CHIFFRE ou LETTRE MINUSCULE SANS ESPACE.<br>Example : 48, noixdecoco, etc.<br><br>Si tu es bien M ca devrait n'être qu'une simple formalité. 🙂‍↕️<br><br>Écris \"letsgo\" pour lancer le quiz !",
+        question: "Aaahah ! Tu viens de trouver ce site et tu veux récuperer ton cadeau ?<br>Ouais.. je comprends 💛<br><br>Mais tu te doutes bien que je vais d'abord devoir vérifier ton identité.<br>L'idée va être de pouvoir prouver que tu es bien M.<br>Tu vas donc devoir réussir à atteindre la fin de ce quiz en moins de 3 fautes.<br><br>Si tu dois écrire une réponse, elle sera toujours en CHIFFRE ou LETTRE MINUSCULE SANS ESPACE.<br>Example : 48, noixdecoco, etc.<br><br>Si tu es bien M ca devrait n'être qu'une simple formalité. 🙂‍↕️<br><br>Écris \"letsgo\" pour lancer le quiz !",
         options: null,
         correct: "letsgo",
         image: "images/cerf.png"
